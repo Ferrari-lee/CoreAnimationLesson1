@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		401A4BD21A467C40007B4587 /* CustomPullViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 401A4BD11A467C40007B4587 /* CustomPullViewController.m */; };
+		401A4BD51A467DDA007B4587 /* CustomAnimationView.m in Sources */ = {isa = PBXBuildFile; fileRef = 401A4BD41A467DDA007B4587 /* CustomAnimationView.m */; };
 		40BD09EA1A3D290A00DA522C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BD09E91A3D290A00DA522C /* main.m */; };
 		40BD09ED1A3D290A00DA522C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BD09EC1A3D290A00DA522C /* AppDelegate.m */; };
 		40BD09F01A3D290A00DA522C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 40BD09EF1A3D290A00DA522C /* ViewController.m */; };
@@ -27,6 +29,10 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		401A4BD01A467C40007B4587 /* CustomPullViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomPullViewController.h; sourceTree = "<group>"; };
+		401A4BD11A467C40007B4587 /* CustomPullViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomPullViewController.m; sourceTree = "<group>"; };
+		401A4BD31A467DDA007B4587 /* CustomAnimationView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CustomAnimationView.h; sourceTree = "<group>"; };
+		401A4BD41A467DDA007B4587 /* CustomAnimationView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CustomAnimationView.m; sourceTree = "<group>"; };
 		40BD09E41A3D290A00DA522C /* AnimationLesson1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AnimationLesson1.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		40BD09E81A3D290A00DA522C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		40BD09E91A3D290A00DA522C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -85,6 +91,10 @@
 				40BD09EC1A3D290A00DA522C /* AppDelegate.m */,
 				40BD09EE1A3D290A00DA522C /* ViewController.h */,
 				40BD09EF1A3D290A00DA522C /* ViewController.m */,
+				401A4BD01A467C40007B4587 /* CustomPullViewController.h */,
+				401A4BD11A467C40007B4587 /* CustomPullViewController.m */,
+				401A4BD31A467DDA007B4587 /* CustomAnimationView.h */,
+				401A4BD41A467DDA007B4587 /* CustomAnimationView.m */,
 				40BD09F11A3D290A00DA522C /* Main.storyboard */,
 				40BD09F41A3D290A00DA522C /* Images.xcassets */,
 				40BD09F61A3D290A00DA522C /* LaunchScreen.xib */,
@@ -219,8 +229,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				401A4BD21A467C40007B4587 /* CustomPullViewController.m in Sources */,
 				40BD09F01A3D290A00DA522C /* ViewController.m in Sources */,
 				40BD09ED1A3D290A00DA522C /* AppDelegate.m in Sources */,
+				401A4BD51A467DDA007B4587 /* CustomAnimationView.m in Sources */,
 				40BD09EA1A3D290A00DA522C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -414,6 +426,7 @@
 				40BD0A091A3D290A00DA522C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		40BD0A0A1A3D290A00DA522C /* Build configuration list for PBXNativeTarget "AnimationLesson1Tests" */ = {
 			isa = XCConfigurationList;
@@ -422,6 +435,7 @@
 				40BD0A0C1A3D290A00DA522C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
